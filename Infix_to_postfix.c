@@ -37,7 +37,7 @@ void push(struct stack *sp, char val)
 {
     if (isFull(sp))
     {
-        printf("Stack Overflow! Cannot push %d to the stack\n", val);
+        printf("Stack Overflow Cannot push %d to the stack\n", val);
     }
     else
     {
@@ -50,7 +50,7 @@ char pop(struct stack *sp)
 {
     if (isEmpty(sp))
     {
-        printf("Stack Underflow! Cannot pop from the stack\n");
+        printf("Stack Underflow Cannot pop from the stack\n");
         return -1;
     }
     else
